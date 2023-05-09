@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden ;
+}
+.Nav-bar{
+width:100%;
+}
+
+.Nav-container{
+  display: flex;
+  display: grid;
+  grid-template-columns: 40px 32vw 10vw 10vw 35vw 2vw auto;
+  align-items: center;
+  background-color:#fff; 
+  padding: 10px 10px 10px 10px;
+  
+}
+.Nav-container p{
+background-color: #fff;
+display: inline-block;
+
+}
+
+.searchbar{
+background-color: #fff;
+border: 0.5px solid black;
+height: 30px;
+width: 15vw;
+border-radius: 20px;
+text-align: center;
+}
+.Nav-pic{
+  background-color: #fff;
+  width: 25px;
+
+}
+
+.Nav-container img:hover{
+    background-color: #BEDCF3;
+}
+
+@media only screen and (max-width:767px){
+
+}

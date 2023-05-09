@@ -1,0 +1,44 @@
+
+.Home{
+    margin: 0;
+    padding: 0;
+    background-color: #AAAAAA;
+    overflow-x: scroll;
+    /* background-color: #E8E8E8; */
+}
+.Home-grid{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Home-content{
+    height: 10px;
+    background-color: red;
+    width: 20px;
+    border: 2px solid black;
+   
+    
+}
+@media only screen and (max-width: 1200px) {
+   .response1{
+    display: none;
+   }
+   .response2{
+    display: none;
+   }
+   .Home-grid{
+    margin-left: 10vw;
+   }
+   .Home-Container{
+    display: grid;
+    align-items: center;
+
+   }
+  }
+
+  .home-nav{
+
+    position: sticky;
+    top:0px;
+    
+  }
